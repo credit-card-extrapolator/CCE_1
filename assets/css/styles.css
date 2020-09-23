@@ -1,0 +1,1201 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+ font-family: 'Roboto', sans-serif;;
+}
+
+
+header{
+    width: 100%;
+    height: 600px;
+}
+
+
+.logo{
+
+    width: 100px;
+    margin: 0 10px;
+
+}
+
+.link{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.link ul{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.link ul:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.nav{
+    background: #1d1e21;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download{
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background: whitesmoke;
+    flex-flow: wrap  column;
+}
+
+.img-download{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-download .similitud{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(29, 30, 33, 0.486);
+    object-fit: cover;
+}
+
+.part-download{
+    width: 60%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+h1{
+    color: #1d1e21;
+    font-size: 50px;
+    width:  100%;
+    display: flex;
+    flex-direction: column;
+    padding-left:5% ;
+}
+
+h1 span{
+    color: #05a5db;
+}
+
+
+.boton-descargar{
+    display: flex;
+    border: 5px solid #1d1e21;
+    border-radius: 10px;
+    height: 70px;
+    width: 220px;
+    margin-left: 5%;
+    margin-top:10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    color:#1d1e21;
+}
+
+.boton-descargar:hover{
+    transform: scale(1.1);
+    background: #1d1e21;
+    color: whitesmoke;
+}
+
+
+
+/* BODY*/
+
+
+/* acerca de */
+
+.acerca-de{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    width: 90%;
+    height: 400px;
+    flex-flow: row wrap;
+
+}
+
+.acerca-de-logo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acerca-de-logo img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.acerca-de .texto{
+    width: 60%;
+}
+
+h2{
+    color: #1d1e21;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
+
+.acerca-de .texto p{
+    color: #33353b ;
+    height: 80%;
+    width: 90%;
+    font-size: 25px;
+    font-weight: 550;
+    text-align: left;
+    margin: 0 30px;
+
+}
+
+
+/* metodos de extrapolacion */
+
+.metodos-extrapolacion{
+    background: whitesmoke;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    margin: 10px auto;
+    height: 500px;
+
+}
+
+.letras {
+    height: 35%;
+    width: 90%;
+    margin: 15px auto;
+
+    
+
+}
+
+.letras p {
+    color: #33353b ;
+    height: 80%;
+    width: 90%;
+    font-size: 25px;
+    font-weight: 550;
+    text-align: left;
+    margin: 0 30px;
+}
+
+.letras p a{
+    color: #05a5db;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.letras p a:hover{
+    opacity: 1;
+}
+
+.metodo-basico{
+    height: 55%;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+.metodo-basico .basico-img{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+.metodo-basico img{
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(29, 30, 33, 0.486);
+
+}
+
+.titulo-basico{
+    width: 50%;
+    display: flex;
+    justify-items: center;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+
+.titulo-basico h3{
+    display: flex;
+    width: 40%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    background:#cd0000;
+    color: white;
+    margin: 0px auto;
+    font-size: 30px;
+}
+
+.titulo-basico p{
+    color: #33353b;
+    display: flex;
+    width: 85%;
+    flex-flow: column  wrap;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 23px;
+    font-weight: 550;
+}
+
+.titulo-basico p a{
+    color: red;
+    margin-top: 10px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.titulo-basico p a:hover{
+    opacity: 1;
+}
+
+
+/* 
+formato de descaga */
+
+
+.formato-de-descarga{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    margin: 30px auto;
+    height: 900px;
+    /* background: green; */
+
+}
+
+.titulo-descarga{
+    width: 90%;
+    margin: 10px auto;
+}
+
+
+
+.titulo-descarga p{
+    font-size: 25px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.formato{
+    width: 84%;
+    height: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    /* background: #000; */
+
+}
+
+.formato .exe{
+    height: 45%;
+    width: 70%;
+    display: flex;
+    flex-flow: column ;
+    justify-content:space-around ;
+    align-items: center;
+    border: 5px solid #1d1e21;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.formato .exe h2{
+    margin: 5px auto;
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    font-size: 25px;
+    color: #1d1e21;
+    font-weight: 600;
+}
+
+.exe .centro{
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.exe .centro .img-rar{
+    width: 35%;
+    
+
+
+}
+
+.exe .centro .img-exe{
+    height: 90%;
+}
+
+.exe .centro img{
+    box-shadow: 5px 5px 20px rgba(29, 30, 33, 0.486);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.centro p{
+    font-size: 19px;
+    width: 50%;
+    color: #33353b;
+    font-weight: 500;
+}
+
+
+.exe .descargar-arch{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.descargar-arch .des{
+     color: white;
+    border-radius: 10px;
+    background: #1d1e21;
+    height: 50px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.descargar-arch .des:hover{
+    background: white;
+    border: 3px solid #1d1e21;
+    color: #1d1e21;
+    transform: scale(1.1);
+}
+
+.descargar-arch h5{
+    color: #33353b;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.descargar-arch .bebas{
+    color: #33353b;
+    font-size: 15px;
+
+}
+
+.descargar-arch .bebas:hover{
+    color: #1d1e21;
+    font-weight: 700;
+
+}
+
+
+
+/* descargar documentacion */
+.descargar-documentos{
+    background: whitesmoke;
+    display: flex;
+    flex-flow: column ;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 500px;
+ }
+
+ .titulo-documentos{
+     width: 90%;
+     margin: 10px auto;
+ }
+
+ .titulo-documentos p{
+     width: 95%;
+     margin: 0 auto;
+     font-size: 25px;
+     font-weight: 550;
+ }
+
+ .descargar-formato{
+     width: 60%;
+     height: 70%;
+     margin: 10px auto;
+     display: flex;
+
+ }
+
+ .container-img{
+     display: flex;
+     width: 50%;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .container-img img{
+     width: 50%;
+     border-radius: 10px;
+     box-shadow: 10px 10px 20px rgba(29, 30, 33, 0.486);
+ }
+
+ .format{
+     width: 50%;
+     display: flex;
+     flex-flow: column wrap;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .pdf{
+     width: 80%;
+     height: 20%;
+     display: flex;
+     margin: 20px auto;
+     border: 5px solid #1d1e21 ;
+     border-radius: 10px;
+     color: #1d1e21;
+     font-size: 40px;
+     cursor: pointer;
+ }
+ .pdf a{
+ 
+     display: flex;
+     flex-flow: row wrap;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     
+ }
+ .pdf i{
+     margin: 0 10px;
+ }
+
+ 
+
+
+
+
+ .pdf:hover{
+     background: #1d1e21;
+     color: whitesmoke;
+     transform: scale(1.1);
+ }
+
+
+.publicidad{
+    margin: 20px auto;
+    width: 100%;
+}
+
+.publicidad img{
+    margin: 10px auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+}
+
+.publicidad img:hover{
+    opacity: 0.8;
+}
+
+
+
+ footer{
+
+    width: 100%;
+    height: 200px;
+    background: #1d1e21;
+ }
+
+ .redes-sociales{
+     width: 100%;
+     height: 80%;
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+     align-content: center;
+     
+ }
+
+ .iconos{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+ }
+
+ .iconos h3{
+     color: rgb(224, 220, 220);
+     font-size: 30px;
+ }
+
+ .iconos i{
+     font-size: 40px;
+     margin: 0 20px;
+     color: white;
+     opacity: 0.5;
+     cursor: pointer;
+ }
+
+ .iconos i:hover{
+     opacity: 1;
+     transform: scale(1.1);
+ }
+ .derechos{
+     background: #121314;
+     width: 100%;
+     height: 20%;
+     display: flex;
+     flex-flow: column wrap;
+     justify-content: center;
+     align-content: center;
+
+ }
+
+.correo{
+     display: flex;
+     width: 80%;
+     height: 30%;
+     margin: 0 auto;
+     font-size: 20px;
+     justify-content: center;
+     align-items: center;
+     color: rgb(224, 220, 220);
+ }
+
+ .correo i{
+    font-size: 40px;
+    margin: 0 20px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+ }
+
+ .correo i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+ .paypal{
+     width: 100%;
+     height: 35%;
+     margin: 0 auto;
+ }
+
+ .paypal form{
+     display: flex;
+     justify-content: center;
+     margin: 0 15px;
+ }
+
+ .paypal form:hover{
+     opacity: 0.8;
+ }
+
+ .derechos h4{
+     font-size: 15px;
+     color: white;
+     font-weight: 300;
+     text-align: center;
+ }
+
+
+ @media screen and (max-width:900px){
+     header{
+         display: flex;
+         flex-direction: column;
+         height: 400px;
+
+     }
+
+     .download{
+         display: flex;
+         flex-flow: row wrap;
+     }
+
+   .nav { 
+       display: flex;
+       justify-content: space-between;
+   }
+   .logo{
+       width: 10%;
+
+   }
+
+
+   .link ul{
+       font-size: 10px;
+   }
+
+   h1{
+       font-size: 25px;
+
+   }
+
+   .boton-descargar{
+       height: 35px;
+       width: 110px;
+       font-size: 15px;
+       border: 2px solid #1d1e21;
+   }
+   
+
+
+   .img-download .similitud{
+       width: 95%;
+   }
+
+   /* Body */
+
+   .acerca-de{
+    display: flex;
+    flex-flow: column ;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 90%;
+    height: 400px;
+}
+
+    h2{
+        color: #1d1e21;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 15px;
+    
+    }
+
+    .acerca-de-logo img{
+        width: 50%;
+    }
+
+    .acerca-de .texto{
+        width: 100%;
+        height: 50%;
+    }
+
+    .acerca-de .texto p{
+        font-size: 12px;
+        font-weight: 550;
+        margin: 0 15px;
+
+        height: 100%;
+        width: 90%;
+    }
+
+    .acerca-de-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+
+        margin: 0 auto;
+    }
+
+    
+/* metodos de extrapolacion */
+
+    .metodos-extrapolacion{
+        display: flex;
+        flex-flow: column wrap;
+
+    }
+    .letras {
+        height: 35%;
+        width: 90%;
+        margin: 7px auto;
+    }
+    .letras p {
+        height: 40%;
+        width: 90%;
+        font-size: 14px;
+        margin: 0 15px;
+    }
+
+    .metodo-basico{
+
+        height: 45%;
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .titulo-basico h3{
+        width: 40%;
+        height: 15%;
+        margin: 0px auto;
+        font-size: 10px;
+    }
+
+    .titulo-basico p{
+        display: flex;
+        width: 85%;
+        margin: 10px auto;
+        font-size: 11px;
+        font-weight: 550;
+    }
+    .metodo-basico .basico-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .metodo-basico img{
+        width: 90%;
+        height: 80%;
+    }
+
+    /* 
+formato de descaga */
+
+    .formato-de-descarga{
+        display: flex;
+        height: 600px;
+        flex-flow: column;
+        margin: 7px auto;
+    }
+
+    .titulo-descarga p{
+        font-size: 12px;
+        width: 94%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .formato {
+        height: 75%;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        border-radius: 5px;
+        
+    }
+
+
+    .formato .exe{
+        width: 70%;
+        height: 42%;
+    }
+
+    .formato .exe h2{
+        margin: 2px auto;
+        font-size: 12px;
+    }
+
+    .exe .centro img{
+        border-radius: 5px;
+        
+    }
+
+
+    .centro p{
+        font-size: 10px;
+    }
+    .descargar-arch .des{
+        height: 25px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+
+    .descargar-arch h5{
+        font-size: 7px;
+    }
+
+    .descargar-arch .bebas{
+        font-size: 7px;
+    }
+
+/* descargar documentacion */
+
+    .descargar-documentos{
+        margin-top: 25px;
+    }
+
+    .titulo-documentos p{
+        font-size: 15px;
+    }
+    .descargar-formato{
+        height: 60%;
+        width: 80%;
+    }
+
+     .pdf{
+         width: 80%;
+         height: 15%;
+         font-size: 20px;
+
+     }
+
+     
+     .container-img img{
+         width: 90%;
+         border-radius: 5px;
+         box-shadow: 5px 5px 10px rgba(29, 30, 33, 0.486);
+     }
+
+
+
+
+     .publicidad img { 
+         height: 75px;
+     }
+   
+
+
+   
+
+}
+
+
+@media screen and (max-width:500px){
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+
+    }
+
+    .download{
+        display: flex;
+        flex-flow: column-reverse wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+  .nav { 
+      display: flex;
+      justify-content: space-around;
+      height: 20%;
+  }
+  .logo{
+      width: 15%;
+
+  }
+
+
+  .link ul{
+      font-size: 8px;
+      margin: 0 5px;
+  }
+  .part-download{
+      width: 80%;
+  }
+
+  h1{
+      font-size: 20px;
+      width: 100%;
+      text-align: center;
+
+  }
+
+  .boton-descargar{
+      height: 35px;
+      width: 110px;
+      margin: 10px auto;
+      font-size: 15px;
+      border: 2px solid #1d1e21;
+  }
+  
+  .img-download{
+      width: 50%;
+
+  }
+
+  .img-download .similitud{
+      width: 100%;
+  }
+
+  /* Body */
+
+  .acerca-de{
+   display: flex;
+   flex-flow: column ;
+   justify-content: space-between;
+   margin: 50px auto;
+   width: 90%;
+   height: 400px;
+}
+
+   h2{
+       color: #1d1e21;
+       font-size: 20px;
+       font-weight: 700;
+       margin: 15px auto;
+       text-align: center;
+   
+   }
+
+   .acerca-de-logo img{
+       width: 80%;
+   }
+
+   .acerca-de .texto{
+       width: 100%;
+       height: 50%;
+   }
+
+   .acerca-de .texto p{
+       font-size: 12px;
+       font-weight: 550;
+       margin: 0 15px;
+       height: 100%;
+       width: 90%;
+       text-align: justify;
+   }
+
+   .acerca-de-logo{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 80%;
+
+       margin: 0 auto;
+   }
+
+   
+/* metodos de extrapolacion */
+
+   .metodos-extrapolacion{
+       display: flex;
+       flex-flow: column wrap;
+
+   }
+   .letras {
+       height: 35%;
+       width: 90%;
+       margin: 7px auto;
+   }
+   .letras p {
+       height: 40%;
+       width: 90%;
+       font-size: 12px;
+       margin: 0 15px;
+       text-align: justify;
+   }
+
+   .metodo-basico{
+
+       height: 60%;
+       width: 90%;
+       display: flex;
+       margin: 0 auto;
+       flex-flow: column ;
+   }
+    
+   .titulo-basico{
+       width: 100%;
+       height: 50%;
+   }
+   .titulo-basico h3{
+       width: 50%;
+       height: 15%;
+       margin: 0px auto;
+       font-size: 8px;
+   }
+
+   .titulo-basico p{
+       display: flex;
+       width: 85%;
+       margin: 10px auto;
+       font-size: 11px;
+       font-weight: 550;
+   }
+   .metodo-basico .basico-img{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 50%;
+   }
+
+   .metodo-basico img{
+       width: 70%;
+       height: 90%;
+   }
+
+   /* 
+formato de descaga */
+
+   .formato-de-descarga{
+       display: flex;
+       height: 600px;
+       flex-flow: column;
+       margin: 7px auto;
+
+   }
+
+   .titulo-descarga p{
+       font-size: 12px;
+       width: 94%;
+       margin: 0 auto;
+       font-size: 14px;
+       text-align: justify;
+   }
+
+   .titulo-descarga{
+       margin: 40px auto;
+   }
+
+   .formato {
+       height: 100%;
+       width: 100%;
+       display: flex;
+       flex-flow: row wrap;
+       border-radius: 5px;
+       
+       
+   }
+
+
+   .formato .exe{
+       width: 90%;
+       height: 50%;
+   }
+
+   .formato .exe h2{
+       margin-top: 5px;
+       font-size: 13px;
+       width: 100%;
+       height: 10%;
+   }
+
+   .exe .centro img{
+       border-radius: 5px;
+       height: 40%;
+   }
+
+   .exe .centro .img-exe{
+    height: 50%;
+}
+
+   .centro{
+       flex-direction: column;
+       height: 100%;
+   }
+
+   .centro p{
+       font-size: 11px;
+       font-weight: 600;
+       text-align: justify;
+       width: 85%;
+       margin: 10px auto;
+   }
+
+   .descargar-arch{
+       margin: 0px auto;
+   }
+   .descargar-arch .des{
+       height: 30px;
+       width: 50%;
+       font-size: 16px;
+       border-radius: 5px;
+   }
+
+   .descargar-arch h5{
+       font-size: 9px;
+   }
+
+   .descargar-arch .bebas{
+       font-size: 12px;
+   }
+
+/* descargar documentacion */
+
+   .descargar-documentos{
+       margin-top: 300px;
+   }
+
+   .titulo-documentos p{
+       font-size: 15px;
+       text-align: justify;
+   }
+   .descargar-formato{
+       height: 70%;
+       width: 90%;
+   }
+
+    .pdf{
+        width: 80%;
+        height: 15%;
+        border: 2px solid #1d1e21;
+        border-radius: 5px;
+        font-size: 20px;
+
+    }
+
+    
+    .container-img img{
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgba(29, 30, 33, 0.486);
+    }
+
+
+    /* footer */
+
+    .correo{
+        font-size: 12px;
+    }
+    .iconos h3{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .iconos i{
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    .redes-sociales i{
+        font-size: 20px;
+    }
+
+    .paypal{
+        height: 25%;
+    }
+
+    .derechos h4{
+        font-size: 10px;
+    }
+
+    .publicidad img { 
+        height: 50px;
+    }
+
+}
+
+
+
+
+ 

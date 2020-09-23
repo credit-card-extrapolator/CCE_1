@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: "Roboto", sans-serif;
+    display: flex;    
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+img{
+    width: 15%;
+}
+
+h1{
+    margin: 25px auto;
+    color: #1d1e21;
+    font-size: 60px;
+
+}
+
+a{
+    color: white;
+    font-size: 25px;
+    
+    text-decoration: none;
+}
+
+.boton{
+    background: #05a5db;
+    width: 220px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.boton:hover{
+    opacity: 0.8;
+}
