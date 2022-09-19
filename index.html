@@ -1,219 +1,194 @@
-﻿<!DOCTYPE html>
-<html lang="es">
-
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="shortcut icon" type="image/x - icon" href="assets/images/LOGO2.png">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500;1,700&display=swap"
-        rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CCE - Credit Card Extrapolator</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Credit Card Extrapolator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/styles/styles.css">
+	<link rel="shortcut icon" type="image/x - icon" href="assets/images/logo.png">
+
 </head>
-
 <body>
-    <header>
-        <div class="nav">
-            <img src="assets/images/LOGO2.png" alt="Logo CCE" class="logo">
-            <li class="link">
-                <ul><a href="#">Inicio</a></ul>
-                <ul><a href="#acerca_de">Acerca de</a></ul>
-                <ul><a href="metodos.html">Metodos</a></ul>
-                <ul><a href="#documentacion">Documentación</a></ul>
-                <ul><a href="#contacto">Contacto</a></ul>
-            </li>
-        </div>
-        <div class="download">
-            <div class="part-download">
-                <h1 class="titulo-header">Extrapola tu CC facil y rapido con <span>Credit Card Extrapolator</span></h1>
-                <div class="boton-descargar"><a href="#formato">Descargar</a> </div>
-            </div>
-            <div class="img-download">
-                <img src="assets/images/metodos/similitud.PNG" alt="Imagen de CCE" class="similitud">
-            </div>
+		<header class="header">
+			<div class="container">
+				<div class="titulo">
+					<div class="t-img">
+						<img src="assets/images/logo.png" alt="">	
+					</div>
+					<div class="t-links">
+						<ul>
+							<li><a href="#" >Inicio</a></li>
+							<li><a href="metodos.html" >Metodos</a></li>
+							<li><a href="#acerca" >Acerca de</a></li>
+							<li><a href="#documentos" >Documentación</a></li>
+							<li><a href="#contacto" >Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="texto">
+					<h1>Credit Card Extrapolator</h1>
+					<p>Extrapola tus ccs mas rapido y facil.</p>
+					<div class="t-btn">
+						<a class="btn-d" href="#descargas">Descargar para pc</a>
+						<a href="#web" class="btn-w">Version Web</a>
+					</div>
+				</div>
+				<div class="h-img">
+					<img src="assets/images/imgccepc.png" alt="">
+				</div>
+		    </div>
+		</header>
+		<main class="main">
+			<div class="container">
+			<section class="metodos">
+				<h2>Metodos de extrapolación</h2>
+				<hr>
+				<p>La version 1.0 de CCE, tiene disponible 5 metodos de extrapolación mas una herramienta cuya funcion es decirte la longitud de tu CC.  </p>
+				<ul class="list-m">
+					<li>Metodo Basico</li>
+					<li>Metodo Similitud</li>
+					<li>Metodo Activación</li>
+					<li>Metodo Identacion</li>
+					<li>Metodo Sofia</li>
+					<li>Numero de digitos</li>
+				</ul>
+				<a href="metodos.html">Ver todos los metodos</a>
+				
+			</section>
+			<section class="acerca"  id="acerca">
+				<h2>Acerca de</h2>
+				<hr>
+				<p>Card Credit Extrapolator por sus siglas CCE, es una herramienta creada 100% con python, cuya función es extrapolar una CC(Card Credit) con los metodos mas reconocidos y funcionales de internet.
+				</br>
+				</br>
+				En la documentación oficial esta toda la información de lo que hace cada metodo y la manera como se puede hacer manualmente cada uno.
+				</br>
+				</br>
+				El codigo es muy sensillo puedes verlo en el repositorio de Git Hub de la pagina si lo deseas.
+				</p>
+				<div class="btns-acerca">
+					<a target="_blank" href="https://github.com/credit-card-extrapolator/CCE-PYTHON">Repositorio de GitHub</a>
+					<a href="#documentos">Documentación</a>
+				</div>
+			</section>
+			<section class="version-web" id="web">
+				<div class="container">
+					<h2>Version Web</h2>
+					<hr>
+					<div class="web-texto">
+						<p>Anteriormente CCE no estaba disponible para moviles, pero ahora todo cambio.
+						</br>
+						</br>
+						La version Web es lo mismo que la versión para pc, pero con la diferecia que esta no la tienes que descargar solo entrar a la web y listo, ademas es adaptable a pc y moviles.
+						</br>
+						Con una apariencia agradable a la vista y su facilidad y velocidad para utilizarlo lo hacen una buena herramienta.
+						</br>
+						Ademas de que cuando nos da el resultado tenemos dos botones uno para volver al inicio y otro para ir a la pagina generadora de tarjetas Namso Gen.
+						</p>
+						<a target="_blank" href="https://pasfox.com/EGGAcn">Ir a version Web</a>
+					</div>
+					<div class="web-img">
+						<img src="assets/images/cceweb1.png" alt="">
+						<img src="assets/images/cceweb2.png" alt="">
+					</div>
+				</div>
+			</section>
+			<div class="publicidad">
+
+				<a href="https://everve.net/ref/4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZVeverve.net/pub/everve_468x60_perform_en.gif" width="468" height="60" alt="Everve - Social Media Exchange on steroids by Everve" /></a>
+
+			</div>
+			<section class="descargar" id="descargas">
+				<div class="container">	
+				<h2>Descargar</h2>
+				<hr>
+				<p>CCE esta disponible solo para windows, pero puedes utilizar la version web si no tienes este sistema operativo. Lo puedes descargar en .exe o comprido en .rar pesa un poco menos pero si tu windows no te deja ejecutar el .exe puedes utilizar el .rar.
+				Todos los archivos estan compridos en .rar para evitar problemas de virus.
+			    </br>
+			    No olvides descargar e instalar la fuente BEBAS para una mejor experiencia.
+				</p>
+				<div class="formato1">
+					<h3>Archivo ejecutable .exe</h3>
+					<h4>Tamaño de archivo: 8,65 MB</h4>
+					<a href="./assets/files/CCE_EXE.rar" download="CCE_EXE.rar">Descargar</a>
+					<a href="./assets/files/BEBAS_.rar" download="BEBAS.rar">Fuente Bebas</a>
+				</div>
+				<div class="formato2">
+					<h3>Archivo comprimido .rar</h3>
+					<h4>Tamaño de archivo: 7,71 MB</h4>
+					<a href="./assets/files/CCE.rar" download="CCE.rar">Descargar</a>
+					<a href="./assets/files/BEBAS_.rar" download="BEBAS.rar">Fuente Bebas</a>
+
+				</div>
+				</div>
+
+			</section>
+			<script async src='//www.responserver.com/8a2ad3dbd4ef559b893d8d6bb7fae1d3/invoke.js'></script>
+			<div class="publicidad2">
+				<script type="text/javascript">
+					atOptions = {
+						'key' : '80fdd6f83737121551101fb581317552',
+						'format' : 'iframe',
+						'height' : 90,
+						'width' : 728,
+						'params' : {}
+					};
+					document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.displaycontentprofit.com/80fdd6f83737121551101fb581317552/invoke.js"></scr' + 'ipt>');
+				</script>
+				
+			</div>
+
+			<section class="documentacion" id="documentos">
+				<h2>Descargar documentación</h2>
+				<hr>
+				<p>En la documentación encontraras toda la información sobre los metodos ademas de información sobre que son los Bins, una CC, que es extrapolar etc.
+				</br>
+				Tambien puedes descargar el pdf sobre lo basico del carding en el caso de que apenas estes aprendiendo.
+				</p>
+				<div class="btns-docu">
+					<a href="./assets/files/CCE-Tutorial-v_1.0_pdf.rar" download="CCE_tutorial_pdf.rar">Descargar pdf</a>
+					<a href="./assets/files/CCE-Tutorial-v_1.0_docx.rar" download="CCE_tutorial_docx.rar">Descargar docx</a>
+					<a href="https://pasfox.com/Abcaly">Lo basico del carding</a>
+				</div>
+			</section>
+			<div class="publicidad3">
+
+				<script type="text/javascript">
+					atOptions = {
+						'key' : '80fdd6f83737121551101fb581317552',
+						'format' : 'iframe',
+						'height' : 90,
+						'width' : 728,
+						'params' : {}
+					};
+					document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.displaycontentprofit.com/80fdd6f83737121551101fb581317552/invoke.js"></scr' + 'ipt>');
+				</script>
+
+			</div>
+		</div>
+		</main>
+		<footer id="contacto">
+			<div class="container">
+				<div class="redes">
+					<a target="_blank" href="https://t.me/sobrehacking"><i class="fab fa-telegram"></i></a>
+					<a target="_blank" href="https://www.youtube.com/channel/UCJZGRUBCy6JhYiMXVABuENQ"><i class="fab fa-youtube"></i></a>
+					<a target="_blank" href="https://github.com/credit-card-extrapolator/CCE"><i class="fab fa-github"></i></a>
+					<a target="_blank" href="https://credit-card-extrapolator.github.io/CCE/Donaciones/"><i class="fas fa-donate"></i></a>
+				</div>
+				<a class="btn-donar" target="_blank" href="https://cceweb.herokuapp.com/Donaciones/index.html">Donar</a>
+				<a class="btn-web" target="_blank" href="https://pasfox.com/EGGAcn">Version Web</a>
+				<div class="derechos">
+					<h4>Software Opensource - creado por Anderson H.</h4>
+				</div>
+			</div>
+		</footer>
 
 
-
-        </div>
-    </header>
-
-    <section class="acerca-de" id="acerca_de">
-        <div class="texto">
-            <h2 class="titulo">¿Que es CCE?</h2>
-            <p>
-                CCE o (Card Credit Extrapolator), como su nombre lo indica es
-                un software creado para extrapolar una CC y generar un Bin, que
-                luego se utilizara en CARDING. <br>
-
-                <br>
-                CCE consta de una serie de métodos de extrapolación conocidos en los grupos
-                de CARDING. <br>
-                <br>
-
-                Los métodos son; Básico, Similitud, Activacion, Identación logica y SoPhia,
-                mas una última herramienta cuya función es simplemente comprobar cuantos
-                dígitos tiene tu CC.</p>
-        </div>
-
-        <div class="acerca-de-logo"><img src="assets/images/LOGO2.png" alt="Logo de CCE"></div>
-
-    </section>
-
-    <section class="metodos-extrapolacion" id="metodos">
-
-        <div class="letras">
-            <h2 class="titulo"><span>Metodos de extrapolación</span> </h2>
-            <p>Por ahora CCE en su version 1.0, cuenta con 5 metodos de
-                extrapolación y una herramienta que sirve para comprobar cuantos
-                digitos tiene una CC.
-                Puedes descargar la documentacion donde se
-                explica mas detalladamente cada metodo <a href="#documentacion">aquí.</a></p>
-        </div>
-
-
-        <div class="metodo-basico">
-            <div class="basico-img">
-                <img src="assets/images/metodos/basico.PNG" alt="Metodo Basico">
-            </div>
-
-            <div class="titulo-basico">
-                <h3>Metodo Basico</h3>
-                <p>Para este metodo lo que necesitas es una CC,
-                    al colocarla en la primera caja de texto y darle click al boton
-                    Extrapolar, lo que hace el programa es tomar los 6 primeros numeros
-                    de la CC y rellenar los 10 numeros faltantes con “x”. <br>
-                    <a href="metodos.html">Ver todos los metodos ></a></p>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="formato-de-descarga" id="formato">
-        <div class="titulo-descarga">
-            <h2 class="titulo">Formato de descarga</h2>
-            <p>CCE se encuentra en su versión 1.0, disponible para Windows.
-                Puedes descargarlo en .EXE o comprimido en .RAR.</p>
-        </div>
-
-        <div class="formato">
-            <div class="exe">
-                <h2>Archivo ejecutable .exe</h2>
-                <div class="centro">
-                    <img class="img-exe" src="assets/images/exe.PNG" alt="Archivo .exe">
-                    <p>Este archivo no necesita de carpetas con otros archivos
-                        para poder ejecutarse. <br> No olvides descargar
-                        la fuente <a href="assets/archivos/BEBAS__.TTF" download="BEBAS_.TTF">Bebas</a>
-                        para una mejor experiencia en el interfaz.
-                    </p>
-                </div>
-
-                <div class="descargar-arch">
-                    <a target="_blank" class="des" href="https://pasfox.com/kNAi"
-                        download="Credit Card Extrapolator - v1.0.exe">Descargar</a>
-                    <h5> Tamaño de archivo: 8,86 MB</h5>
-                    <a class="bebas" href="assets/archivos/BEBAS__.TTF" download="BEBAS_.TTF">Descargar fuente Bebas</a>
-                </div>
-
-
-            </div>
-
-            <div class="exe">
-                <h2>Archivo comprimido .rar</h2>
-                <div class="centro">
-                    <img class="img-rar" src="assets/images/cont-rar.PNG" alt="Archivo .exe">
-                    <p>
-                        El archivo comprimido en .rar contiene la carpeta donde
-                        esta el programa .exe mas los archivos que necesita para ejecutarse. Ademas incluye la fuente <a
-                            href="assets/archivos/BEBAS__.TTF" download="BEBAS_.TTF">Bebas</a> que es recomendable
-                        instalar para una mejor experiencia en el interfaz. <br>
-
-                    </p>
-                </div>
-
-                <div class="descargar-arch">
-                    <a target="_blank" class="des" href="https://pasfox.com/kNAi" download="CCE.rar">Descargar</a>
-                    <h5> Tamaño de archivo: 7,71 MB</h5>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-    <section class="descargar-documentos" id="documentacion">
-        <div class="titulo-documentos">
-            <h2 class="titulo">Descargar documentación</h2>
-            <p>La documentacíon se encuentra disponible en formato
-                .PDF y .DOCX.
-                En esta se explica detalladamente los metodos
-                de extrapolación, como tambien
-                que es un BIN, como utlizarlo,
-                como generar ccs apartir de un BIN y mas... </p>
-        </div>
-        <div class="descargar-formato">
-            <div class="container-img">
-                <img src="assets/images/word.PNG" alt="Imagen de archivo">
-            </div>
-
-            <div class="format">
-                <div class="pdf"> <a  target="_blank" href="https://pasfox.com/kNAi"
-                        download="CCE-Tutorial - v 1.0.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                        <h4>.PDF</h4> </a>
-                </div>
-                <div class="pdf"><a target="_blank" href="https://pasfox.com/kNAi"
-                        download="CCE-Tutorial - v 1.0.docx"><i class="fa fa-file-word-o" aria-hidden="true"></i>
-                    <h4>.DOCX</h4></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    
-    <div class="publicidad">
-        <a href="https://everve.net/ref/4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZVeverve.net/pub/everve_728x90_general_static_en.png" width="728" height="90" alt="Everve - Social Media Exchange on steroids by Everve" /></a>
-    </div>
-
-
-    <footer id="contacto">
-        <section class="redes-sociales">
-            <div class="iconos">
-                <h3>Siguenos en:</h3>
-                <a target="_blank" href="https://www.youtube.com/channel/UCfzu-cvx2iPLjc95PdbVlbw?view_as=subscriber"><i
-                        class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                <a target="_blank" href="https://twitter.com/Rne_10"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a target="_blank" href="https://t.me/sobrehacking"><i class="fa fa-telegram" aria-hidden="true"></i></a>
-                <a target="_blank" href="https://www.instagram.com/r3ne09/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </div>
-
-            <div class="correo">
-                <a target="_blank" href="https://gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                <h4>credit.card.extrapolator@gmail.com</h4>
-            </div>
-
-            <div class="paypal">
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                    <input type="hidden" name="cmd" value="_donations" />
-                    <input type="hidden" name="business" value="andersonherreramontes@gmail.com" />
-                    <input type="hidden" name="item_name" value="Recaudacion de fondos" />
-                    <input type="hidden" name="currency_code" value="USD" />
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                    <img alt="" border="0" src="https://www.paypal.com/en_CO/i/scr/pixel.gif" width="1" height="1" />
-                    </form>
-            </div>
-
-
-                
-                
-        </section>
-        <div class="derechos">
-
-
-            <h4>© Copyright 2020 CCE - Todos los Derechos Reservados<br> Creado por Anderson Herrera  </h4>
-        </div>
-    </footer>
 
 </body>
-
 </html>
